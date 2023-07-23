@@ -146,3 +146,7 @@
        sudo yum install curl -y
        curl -Ik https://172.16.238.12  ## use ip of app server
 
+
+
+Ref: https://www.nbtechsupport.co.in/2021/01/setup-ssl-for-nginx-kodekloud-engineer.html#google_vignette
+
