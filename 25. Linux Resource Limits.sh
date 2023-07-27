@@ -23,4 +23,10 @@ b. hard_limit = 92
 		cat /etc/security/limits.conf
 		cat /etc/security/limits.conf | grep nproc | grep -v ^
 
+		#if the file limits.conf fails to open in the terminal for edits
+		#then, use the command below to append the required text to the file
+
+		echo "nfsuser         soft    nproc   79" >> limits.conf
+		echo "nfsuser         hard    nproc   92" >> limits.conf
+
 Reference: https://www.nbtechsupport.co.in/2021/01/linux-resource-limits-kodekloud.html
